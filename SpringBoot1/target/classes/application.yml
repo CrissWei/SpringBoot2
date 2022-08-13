@@ -1,0 +1,11 @@
+server:
+  port: 80
+#输入 http://localhost/hello
+#如果是8080，那么输入http://localhost:8080/hello
+#配置生效的优先级别： application.properties > application.yml > application.yaml
+
+
+logging:
+  level:
+    root: info  #默认是info 可以省略，了解即可
+#以后最常用的是xxx.yml文件
